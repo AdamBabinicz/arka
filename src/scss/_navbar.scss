@@ -30,11 +30,7 @@ nav {
         flex-direction: row-reverse;
         position: relative;
         z-index: 1;
-
-        .ham {
-          background: red;
-          cursor: pointer;
-        }
+        cursor: pointer;
 
         .sun {
           color: yellow;
