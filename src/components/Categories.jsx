@@ -23,7 +23,7 @@ export default function Categories() {
     {
       image: category2,
       title:
-        "W Biblii Jehowę nazwano „siedzącym na cherubach”, co nawiązuje do dwóch cherubów umieszczonych na pokrywie Arki. Były one „wyobrażeniem rydwanu” Jehowy.",
+        "W Biblii Jahwę nazwano „siedzącym na cherubach”, co nawiązuje do dwóch cherubów umieszczonych na pokrywie Arki. Były one „wyobrażeniem rydwanu” Jahwe.",
       description: "(1 Samuela 4:4; Psalm 80:1)",
     },
     {
@@ -59,7 +59,7 @@ export default function Categories() {
     {
       image: category8,
       title:
-        "Arka miała związek z obecnością Boga. Na przykład obłok, który unosił się nad nią w Miejscu Najświętszym i w obozie Izraelitów, był wyrazem obecności i błogosławieństwa Jehowy.",
+        "Arka miała związek z obecnością Boga. Na przykład obłok, który unosił się nad nią w Miejscu Najświętszym i w obozie Izraelitów, był wyrazem obecności i błogosławieństwa Jahwe.",
       description: "(Kapłańska 16:2; Liczb 10:33-36)",
     },
   ];
