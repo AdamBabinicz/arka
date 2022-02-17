@@ -30,7 +30,12 @@ nav {
         flex-direction: row-reverse;
         position: relative;
         z-index: 1;
-        cursor: pointer;
+
+        .ham {
+          background: red;
+          cursor: pointer;
+        }
+
         .sun {
           color: yellow;
           font-size: 1.4rem;
@@ -86,7 +91,7 @@ nav {
       }
       .responsive-toggle {
         width: 60vw;
-        right: 0vw;
+        right: 0;
         visibility: visible;
         opacity: 1;
       }
