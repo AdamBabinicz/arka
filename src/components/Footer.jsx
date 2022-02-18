@@ -154,8 +154,8 @@ export default function Footer() {
           <span className="dot">.</span>
         </div>
         <p className="description">
-          Arka Świadectwa, Arka Jehowy, Arka twej [Jehowy] siły, Arka Elohim,
-          Arka Boga Izraela <br /> <br />
+          Arka Świadectwa, Arka Jahwe, Arka twej [Jahwe] siły, Arka Elohim, Arka
+          Boga Izraela <br /> <br />
           <em>​(Liczb 7:89; Jozuego 3:6, 13; 2 Kronik 6:41)</em>
         </p>
         <ul className="social-links">
