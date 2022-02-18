@@ -124,21 +124,21 @@ export default function Footer() {
   ];
   const socialLinks = [
     <a
-      href="https://twitter.com/penrose"
+      href="https://www.facebook.com/ArkaPrzymierzaNS"
       target="_blank"
       rel="noopener noreferrer"
     >
       <BsFacebook />
     </a>,
     <a
-      href="https://twitter.com/penrose"
+      href="https://twitter.com/TomaszPyryt/status/1392762956207869954"
       target="_blank"
       rel="noopener noreferrer"
     >
       <BsTwitter />
     </a>,
     <a
-      href="https://www.instagram.com/roger.penrose.ok"
+      href="https://www.instagram.com/stacja7pl"
       target="_blank"
       rel="noopener noreferrer"
     >
