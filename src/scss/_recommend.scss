@@ -43,6 +43,7 @@
       font-weight: bolder;
       transition: var(--transition);
       cursor: pointer;
+      margin-top: 1rem;
       &:hover {
         background-color: var(--dark-blue);
         color: var(--background);
