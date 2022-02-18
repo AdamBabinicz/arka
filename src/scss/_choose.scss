@@ -71,7 +71,7 @@
             width: 100%;
             // block-size: auto;
             height: 20rem;
-            object-fit: cover;
+            object-fit: contain;
           }
           &:hover {
             box-shadow: var(--elevate-shadow);
