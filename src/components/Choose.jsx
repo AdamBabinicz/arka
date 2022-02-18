@@ -66,15 +66,15 @@ export default function Choose() {
             <img src={choose} alt="delivery" />
             <h4>Dziesiątki teorii spiskowych</h4>
             <p>
-              Istnienie Arki Przymierza rozgrzewa jednak ludzką wyobraźnię od
-              stuleci. Próbowali ją odnaleźć Templariusze, włoscy faszyści,
-              naziści i tysiące poszukiwaczy skarbów. Nikomu nie udało się
-              odkryć miejsca przechowywania Arki albo udowodnić, że została
-              zniszczona lub że nigdy nie powstała. Za to jak grzyby po deszczu
-              pojawiają się spiskowe teorie o tym, że poszukiwany skarb
-              istnieje, a w ukrywanie jego tajemnic zaangażowani się najbardziej
-              wpływowi ludzie na całym świecie. Powstają filmy i książki
-              wskazujące coraz bardziej sensacyjne miejsca jego ukrycia.
+              Istnienie Arki Przymierza rozgrzewa ludzką wyobraźnię od stuleci.
+              Próbowali ją odnaleźć Templariusze, włoscy faszyści, naziści i
+              tysiące poszukiwaczy skarbów. Nikomu nie udało się odkryć miejsca
+              przechowywania Arki albo udowodnić, że została zniszczona lub że
+              nigdy nie powstała. Za to jak grzyby po deszczu pojawiają się
+              spiskowe teorie o tym, że poszukiwany skarb istnieje, a w
+              ukrywanie jego tajemnic zaangażowani się najbardziej wpływowi
+              ludzie na całym świecie. Powstają filmy i książki wskazujące coraz
+              bardziej sensacyjne miejsca jego ukrycia.
             </p>
             <br />
             <p>
