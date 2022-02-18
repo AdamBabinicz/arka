@@ -57,6 +57,7 @@
           color: var(--dark-blue);
           font-family: "MedievalSharp", cursive;
           font-size: 1.1rem;
+          margin: 1rem 0;
         }
         h5 {
           color: var(--dark-blue);
@@ -64,11 +65,13 @@
           font-size: 0.9rem;
           font-weight: lighter;
           text-align: left;
+          margin: 1rem 0;
         }
         hr {
           height: 0.2rem;
           width: 80%;
-          background-color: var(--dark-blue);
+          background: var(--dark-blue);
+          margin: 1rem 0;
         }
         .processor,
         .os {
