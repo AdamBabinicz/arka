@@ -64,6 +64,30 @@ export default function Choose() {
           </div>
           <div className="delivery">
             <img src={choose} alt="delivery" />
+            <h4>Dziesiątki teorii spiskowych</h4>
+            <p>
+              Istnienie Arki Przymierza rozgrzewa jednak ludzką wyobraźnię od
+              stuleci. Próbowali ją odnaleźć Templariusze, włoscy faszyści,
+              naziści i tysiące poszukiwaczy skarbów. Nikomu nie udało się
+              odkryć miejsca przechowywania Arki albo udowodnić, że została
+              zniszczona lub że nigdy nie powstała. Za to jak grzyby po deszczu
+              pojawiają się spiskowe teorie o tym, że poszukiwany skarb
+              istnieje, a w ukrywanie jego tajemnic zaangażowani się najbardziej
+              wpływowi ludzie na całym świecie. Powstają filmy i książki
+              wskazujące coraz bardziej sensacyjne miejsca jego ukrycia.
+            </p>
+            <br />
+            <p>
+              Wielu badaczy sądzi, że Arka znajduje się w bazylice w Aksum w
+              Etiopii. Tę wersje potwierdzają słowa Abuna Pauolosa - przywódcy
+              kościoła etiopskiego, który w 2009 r. powiedział że "Arka
+              Przymierza jest w Etiopii przez wiele wieków, jako patriarcha
+              zobaczyłem ją na własne oczy". Pauolos zapowiedział także, że
+              wkrótce Arka zostanie wystawiona na widok publiczny, co nie
+              nastąpiło do dnia dzisiejszego. Budzi to wątpliwości co do
+              obecności Arki w Etiopii i napędza kolejne teorie co do miejsca
+              ukrycia Arki...
+            </p>
           </div>
         </div>
         <button onClick={() => Toggle()}>Czytaj</button>
@@ -74,8 +98,8 @@ export default function Choose() {
         >
           {/* <p>Rok (p.n.e.) Wydarzenie</p> */}
           <p>
-            <b>1513 - </b> Becalel i jego pomocnicy wykonują Arkę z materiałów
-            ofiarowanych przez Izraelitów (Wyjścia 25:1, 2; 37:1).
+            <b>1513 - </b> Becalel i jego pomocnicy wykonują Arkę (Wyjścia 25:1,
+            2; 37:1).
           </p>
           <p>
             <b>1512 - </b> Mojżesz dokonuje poświęcenia Arki i przybytku oraz
