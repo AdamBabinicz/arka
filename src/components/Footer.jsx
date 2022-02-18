@@ -147,38 +147,40 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="py-3 mx-3">
-      <div className="brand-container">
-        <div className="brand">
-          <span>Arka Przymierza</span>
-          <span className="dot">.</span>
+    <>
+      <footer className="py-3 mx-3">
+        <div className="brand-container">
+          <div className="brand">
+            <span>Arka Przymierza</span>
+            <span className="dot">.</span>
+          </div>
+          <p className="description">
+            Arka Świadectwa, Arka Jahwe, Arka twej [Jahwe] siły, Arka Elohim,
+            Arka Boga Izraela <br /> <br />
+            <em>​(Liczb 7:89; Jozuego 3:6, 13; 2 Kronik 6:41)</em>
+          </p>
+          <ul className="social-links">
+            {socialLinks.map((link, index) => (
+              <li key={index}>{link}</li>
+            ))}
+          </ul>
         </div>
-        <p className="description">
-          Arka Świadectwa, Arka Jahwe, Arka twej [Jahwe] siły, Arka Elohim, Arka
-          Boga Izraela <br /> <br />
-          <em>​(Liczb 7:89; Jozuego 3:6, 13; 2 Kronik 6:41)</em>
-        </p>
-        <ul className="social-links">
-          {socialLinks.map((link, index) => (
-            <li key={index}>{link}</li>
-          ))}
-        </ul>
-      </div>
-      <div className="links">
-        {data.map(({ type, subTypes }, index) => {
-          return (
-            <div className="link" key={index}>
-              <h3 className="title">{type}</h3>
-              <ul>
-                {subTypes.map((type, index) => (
-                  <li key={index}>{type}</li>
-                ))}
-              </ul>
-            </div>
-          );
-        })}
-      </div>
+        <div className="links">
+          {data.map(({ type, subTypes }, index) => {
+            return (
+              <div className="link" key={index}>
+                <h3 className="title">{type}</h3>
+                <ul>
+                  {subTypes.map((type, index) => (
+                    <li key={index}>{type}</li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </footer>
       <span className="bot">Radom, 2022 - {new Date().getFullYear()}.</span>
-    </footer>
+    </>
   );
 }

@@ -14,7 +14,7 @@ footer {
       justify-content: center;
       gap: 0.3rem;
       span {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: var(--gold);
         font-weight: bolder;
         font-family: "MedievalSharp", cursive;
@@ -35,6 +35,7 @@ footer {
       display: flex;
       gap: 2rem;
       justify-content: center;
+
       li {
         background: var(--red);
         padding: 0.8rem;
@@ -45,6 +46,11 @@ footer {
         border-radius: 50%;
         width: 3rem;
         height: 3rem;
+        margin-right: 2rem;
+
+        &:nth-child(3) {
+          margin-right: 0;
+        }
         cursor: pointer;
         &:hover {
           background: white;
@@ -99,10 +105,13 @@ footer {
       grid-template-columns: repeat(3, 1fr);
     }
   }
-  span.bot {
-    color: var(--light-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+}
+span.bot {
+  color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
