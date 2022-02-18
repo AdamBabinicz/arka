@@ -9,7 +9,7 @@ export default function Home() {
     <div className="home">
       <div className="container mx-3 py-3">
         <div className="title-container">
-          <h2>Gdzie znajduje się Arka?</h2>
+          <h1>Gdzie znajduje się Arka?</h1>
           <div className="input-container">
             <FaTorah />
             {/* <input type="text" placeholder="Szukaj" />
