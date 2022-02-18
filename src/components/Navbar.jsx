@@ -22,7 +22,6 @@ export default function Navbar({ changeTheme, currentTheme }) {
               <MdClose onClick={() => setNavState(false)} />
             ) : (
               <GiHamburgerMenu
-                className="ham"
                 onClick={(e) => {
                   e.stopPropagation();
                   setNavState(true);
