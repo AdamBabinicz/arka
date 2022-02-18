@@ -92,9 +92,12 @@ nav {
         right: 0;
         visibility: visible;
         opacity: 1;
+        background: green;
+        height: 100vh;
 
         ul li a {
-          margin-bottom: 2rem;
+          // margin-bottom: 2rem;
+          color: red;
         }
       }
     }
