@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://arka-przymierza.netlify.app/sitemap.xml
+Host: https://arka-przymierza.netlify.app
