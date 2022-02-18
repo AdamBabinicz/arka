@@ -40,6 +40,7 @@
         h4 {
           color: var(--dark-blue);
           font-family: "MedievalSharp", cursive;
+          margin: 1rem 0;
         }
         p {
           color: var(--light-blue);
@@ -56,6 +57,7 @@
       font-weight: bolder;
       transition: var(--transition);
       cursor: pointer;
+      margin-top: 1rem;
       &:hover {
         background: var(--dark-blue);
         color: var(--background);
